@@ -1,0 +1,14 @@
+: 1
+name: libhello
+version: 0.1.0-a.0.z
+language: c++
+project: complex-subproject
+summary: hello C++ library
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/complex-subproject
+email: cjangus@gmail.com
+#build-error-email: cjangus@gmail.com
+depends: * build2 >= 0.15.0
+depends: * bpkg >= 0.15.0
+#depends: libhello ^1.0.0

@@ -1,0 +1,14 @@
+: 1
+name: hello
+version: 0.1.0-a.0.z
+language: c++
+project: subproject-example
+summary: hello C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/subproject-example
+email: cjangus@gmail.com
+#build-error-email: cjangus@gmail.com
+depends: * build2 >= 0.15.0
+depends: * bpkg >= 0.15.0
+depends: libhello

@@ -1,0 +1,8 @@
+project = subproject-example
+subprojects = indirect/complex-subproject/
+
+using version
+using config
+using test
+using install
+using dist
